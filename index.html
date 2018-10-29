@@ -1,0 +1,1081 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网购平台</title>
+		<link href="css/index.css" type="text/css" rel="Stylesheet" />
+		<link href="css/animation.css" type="text/css" rel="Stylesheet" />
+		<link href="css/headerFooter.css" type="text/css" rel="Stylesheet" />
+	</head>
+	<body ng-app="floor">
+	<header id="top">
+		<div id="top_box">
+			<img src="images/star.jpg" />
+			<a href="#">收藏网站</a>
+			<div class="rt">
+				<ul>
+					<li>您好，欢迎来到主页！<a href="#" >[登录]</a> <a href="#" >[免费注册]</a></li>
+					<li><b></b><a href="#" >我的订单</a></li>
+					<li class="app_ji"  id="shouji">
+						<b></b><a href="#">手机应用</a>
+						<div id="app_items"  style="display:none;">
+							<div class="app">
+								<h3>XX客户端</h3>
+								<a href="javascript:;" class="app"></a>
+								<a href="javascript:;" class="android"></a>
+							</div>
+							<div class="bank">
+								<h3>网银钱包客户端</h3>
+								<a href="javascript:;" class="app"></a>
+								<a href="javascript:;" class="android"></a>
+							</div>
+						</div>
+					</li>
+					<li class="service">
+						<b></b><a> 客户服务</a>
+					</li>
+					<li><b></b><a >网站导航</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	
+		<div class="ad"><a href="javascript:close1()">X</a></div>
+		<div id="header">
+			<div id="logo1"><a href=""></a></div>	
+			<div id="logo2"><a href=""></a></div>
+			<div id="search">
+				<form name="search_form" id="search_from">
+					<input class="kw" type="text" name="keyword" placeholder="变频空调">
+					<input type="submit" value="搜索">
+					<div class="suggest"><ul><li>C</li>
+						<li>C++</li></ul></div>
+				</form>
+				<ul id="hot_words" class="clear">
+					<li class="rt">4.18亿红包</li>
+					<li><a href="#">白拿iPone</a></li>
+					<li><a href="#">家居4.18</a></li>
+					<li><a href="#">空调满降</a></li>
+					<li><a href="#">1元试车</a></li>
+					<li><a href="#">音响4.18</a></li>
+					<li><a href="#">防晒15元</a></li>
+					<li><a href="#">立省400</a></li>
+				</ul>
+			</div>
+			<div id="my_shopping" class="lf">
+				我的商城<b></b>
+			</div>
+			<div id="settle_up" class="lf">
+				去购物车结算<b></b>
+			</div>
+		</div>
+		</div>
+		<!--begin: 主体-->
+		<div id="nav">
+			<div id="all_cate">
+				<div class="cate_title">
+					<a href="#">全部商品分类</a>
+				</div>
+			</div>
+			<ul id="nav_items" >
+				<li class="clear"><a href="#">真划算</a></li>
+				<li><a href="#">服装城</a></li>
+				<li><a href="#">超市</a></li>	
+				<li><a href="#">电器城</a></li>	
+				<li><a href="#">智能</a></li>	
+				<li><a href="#">企业采购</a></li>	
+				<li><a href="#">国美家装</a></li>	
+				<li><a href="#">海外购</a></li>	
+				<li><a href="#">金融</a></li>	
+			</ul>
+		</div>
+		<div id="content">
+			<div id="content_1">
+				<div id="cate_main">
+					<h4>
+						<a href="#">电视</a>&nbsp;
+						<a href="#">影音</a>&nbsp;
+						<a href="#">智能家居</a>
+						<div class="fullcategory">
+							<div class="fullcategory-left">
+								<div class="fullcategory-title">
+									<a href="#">电视影视<i></i></a>
+									<a href="#">电视精选<i></i></a>
+								</div>
+								<div class="fullcategory-content-box">
+									<div class="fullcategory-content">
+										<h4>电视</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">平板电视</a><a href="#">32英寸</a><a href="#">37-40英寸</a>
+											<a class="a1" href="#">42-43英寸</a><a href="#">46-49英寸</a>
+											<a class="a1" href="#">50-52英寸</a><a href="#">55-58英寸</a>
+											<a class="a1" href="#">智能电视</a><a href="#">网络电视</a><a href="#">大屏电视</a>
+											<a class="a1" href="#">4K超高清（3840*2160）</a><a class="a1" href="#">全高清（1920*1080）</a>
+										</ul>
+									</div>
+									<div class="fullcategory-content">
+										<h4>电视配件</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">3D电视配件</a><a href="#">保养配件</a><a href="#">插线板</a><a href="#" class="a1">智能电视盒</a><a href="#">电视挂架</a>
+										</ul>
+									</div>
+								</div>
+								<div class="fullcategory-content-box">
+									<div class="fullcategory-content">
+										<h4>电视</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">平板电视</a><a href="#">32英寸</a><a href="#">37-40英寸</a>
+											<a class="a1" href="#">42-43英寸</a><a href="#">46-49英寸</a>
+											<a class="a1" href="#">50-52英寸</a><a href="#">55-58英寸</a>
+											<a class="a1" href="#">智能电视</a><a href="#">网络电视</a><a href="#">大屏电视</a>
+											<a class="a1" href="#">4K超高清（3840*2160）</a><a class="a1" href="#">全高清（1920*1080）</a>
+										</ul>
+									</div>
+									<div class="fullcategory-content">
+										<h4>电视配件</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">3D电视配件</a><a href="#">保养配件</a><a href="#">插线板</a><a href="#" class="a1">智能电视盒</a><a href="#">电视挂架</a>
+										</ul>
+									</div>
+								</div>
+								<div class="fullcategory-content-box">
+									<div class="fullcategory-content">
+										<h4>电视</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">平板电视</a><a href="#">32英寸</a><a href="#">37-40英寸</a>
+											<a class="a1" href="#">42-43英寸</a><a href="#">46-49英寸</a>
+											<a class="a1" href="#">50-52英寸</a><a href="#">55-58英寸</a>
+											<a class="a1" href="#">智能电视</a><a href="#">网络电视</a><a href="#">大屏电视</a>
+											<a class="a1" href="#">4K超高清（3840*2160）</a><a class="a1" href="#">全高清（1920*1080）</a>
+										</ul>
+									</div>
+									<div class="fullcategory-content">
+										<h4>电视配件</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">3D电视配件</a><a href="#">保养配件</a><a href="#">插线板</a><a href="#" class="a1">智能电视盒</a><a href="#">电视挂架</a>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</h4>
+					<h4>
+						<a href="#">冰箱</a>&nbsp;&nbsp;<a href="#">洗衣机</a>&nbsp;&nbsp;<a href="#">空调</a>
+						<div class="fullcategory">
+							<div class="fullcategory-left">
+								<div class="fullcategory-title">
+									<a href="#">电视影视<i></i></a>
+									<a href="#">电视精选<i></i></a>
+								</div>
+								<div class="fullcategory-content-box">
+									<div class="fullcategory-content">
+										<h4>电视</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">平板电视</a><a href="#">32英寸</a><a href="#">37-40英寸</a>
+											<a class="a1" href="#">42-43英寸</a><a href="#">46-49英寸</a>
+											<a class="a1" href="#">50-52英寸</a><a href="#">55-58英寸</a>
+											<a class="a1" href="#">智能电视</a><a href="#">网络电视</a><a href="#">大屏电视</a>
+											<a class="a1" href="#">4K超高清（3840*2160）</a><a class="a1" href="#">全高清（1920*1080）</a>
+										</ul>
+									</div>
+									<div class="fullcategory-content">
+										<h4>电视配件</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">3D电视配件</a><a href="#">保养配件</a><a href="#">插线板</a><a href="#" class="a1">智能电视盒</a><a href="#">电视挂架</a>
+										</ul>
+									</div>
+								</div>
+								<div class="fullcategory-content-box">
+									<div class="fullcategory-content">
+										<h4>电视</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">平板电视</a><a href="#">32英寸</a><a href="#">37-40英寸</a>
+											<a class="a1" href="#">42-43英寸</a><a href="#">46-49英寸</a>
+											<a class="a1" href="#">50-52英寸</a><a href="#">55-58英寸</a>
+											<a class="a1" href="#">智能电视</a><a href="#">网络电视</a><a href="#">大屏电视</a>
+											<a class="a1" href="#">4K超高清（3840*2160）</a><a class="a1" href="#">全高清（1920*1080）</a>
+										</ul>
+									</div>
+									<div class="fullcategory-content">
+										<h4>电视配件</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">3D电视配件</a><a href="#">保养配件</a><a href="#">插线板</a><a href="#" class="a1">智能电视盒</a><a href="#">电视挂架</a>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</h4>
+					<h4>
+						<a href="#">厨卫</a>&nbsp;&nbsp;<a href="#">生活电器</a>&nbsp;&nbsp;<a href="#">净化器</a>
+						<div class="fullcategory">
+							<div class="fullcategory-left">
+								<div class="fullcategory-title">
+									<a href="#">电视影视<i></i></a>
+									<a href="#">电视精选<i></i></a>
+								</div>
+								<div class="fullcategory-content-box">
+									<div class="fullcategory-content">
+										<h4>电视</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">平板电视</a><a href="#">32英寸</a><a href="#">37-40英寸</a>
+											<a class="a1" href="#">42-43英寸</a><a href="#">46-49英寸</a>
+											<a class="a1" href="#">50-52英寸</a><a href="#">55-58英寸</a>
+											<a class="a1" href="#">智能电视</a><a href="#">网络电视</a><a href="#">大屏电视</a>
+											<a class="a1" href="#">4K超高清（3840*2160）</a><a class="a1" href="#">全高清（1920*1080）</a>
+										</ul>
+									</div>
+									<div class="fullcategory-content">
+										<h4>电视配件</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">3D电视配件</a><a href="#">保养配件</a><a href="#">插线板</a><a href="#" class="a1">智能电视盒</a><a href="#">电视挂架</a>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</h4>
+					<h4>
+						<a href="#">电视</a>&nbsp;
+						<a href="#">影音</a>&nbsp;
+						<a href="#">智能家居</a>
+						<div class="fullcategory">
+							<div class="fullcategory-left">
+								<div class="fullcategory-title">
+									<a href="#">电视影视<i></i></a>
+									<a href="#">电视精选<i></i></a>
+								</div>
+								<div class="fullcategory-content-box">
+									<div class="fullcategory-content">
+										<h4>电视</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">平板电视</a><a href="#">32英寸</a><a href="#">37-40英寸</a>
+											<a class="a1" href="#">42-43英寸</a><a href="#">46-49英寸</a>
+											<a class="a1" href="#">50-52英寸</a><a href="#">55-58英寸</a>
+											<a class="a1" href="#">智能电视</a><a href="#">网络电视</a><a href="#">大屏电视</a>
+											<a class="a1" href="#">4K超高清（3840*2160）</a><a class="a1" href="#">全高清（1920*1080）</a>
+										</ul>
+									</div>
+									<div class="fullcategory-content">
+										<h4>电视配件</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">3D电视配件</a><a href="#">保养配件</a><a href="#">插线板</a><a href="#" class="a1">智能电视盒</a><a href="#">电视挂架</a>
+										</ul>
+									</div>
+								</div>
+								<div class="fullcategory-content-box">
+									<div class="fullcategory-content">
+										<h4>电视</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">平板电视</a><a href="#">32英寸</a><a href="#">37-40英寸</a>
+											<a class="a1" href="#">42-43英寸</a><a href="#">46-49英寸</a>
+											<a class="a1" href="#">50-52英寸</a><a href="#">55-58英寸</a>
+											<a class="a1" href="#">智能电视</a><a href="#">网络电视</a><a href="#">大屏电视</a>
+											<a class="a1" href="#">4K超高清（3840*2160）</a><a class="a1" href="#">全高清（1920*1080）</a>
+										</ul>
+									</div>
+									<div class="fullcategory-content">
+										<h4>电视配件</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">3D电视配件</a><a href="#">保养配件</a><a href="#">插线板</a><a href="#" class="a1">智能电视盒</a><a href="#">电视挂架</a>
+										</ul>
+									</div>
+								</div>
+								<div class="fullcategory-content-box">
+									<div class="fullcategory-content">
+										<h4>电视</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">平板电视</a><a href="#">32英寸</a><a href="#">37-40英寸</a>
+											<a class="a1" href="#">42-43英寸</a><a href="#">46-49英寸</a>
+											<a class="a1" href="#">50-52英寸</a><a href="#">55-58英寸</a>
+											<a class="a1" href="#">智能电视</a><a href="#">网络电视</a><a href="#">大屏电视</a>
+											<a class="a1" href="#">4K超高清（3840*2160）</a><a class="a1" href="#">全高清（1920*1080）</a>
+										</ul>
+									</div>
+									<div class="fullcategory-content">
+										<h4>电视配件</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">3D电视配件</a><a href="#">保养配件</a><a href="#">插线板</a><a href="#" class="a1">智能电视盒</a><a href="#">电视挂架</a>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</h4>
+					<h4>
+						<a href="#">冰箱</a>&nbsp;&nbsp;<a href="#">洗衣机</a>&nbsp;&nbsp;<a href="#">空调</a>
+						<div class="fullcategory">
+							<div class="fullcategory-left">
+								<div class="fullcategory-title">
+									<a href="#">电视影视<i></i></a>
+									<a href="#">电视精选<i></i></a>
+								</div>
+								<div class="fullcategory-content-box">
+									<div class="fullcategory-content">
+										<h4>电视</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">平板电视</a><a href="#">32英寸</a><a href="#">37-40英寸</a>
+											<a class="a1" href="#">42-43英寸</a><a href="#">46-49英寸</a>
+											<a class="a1" href="#">50-52英寸</a><a href="#">55-58英寸</a>
+											<a class="a1" href="#">智能电视</a><a href="#">网络电视</a><a href="#">大屏电视</a>
+											<a class="a1" href="#">4K超高清（3840*2160）</a><a class="a1" href="#">全高清（1920*1080）</a>
+										</ul>
+									</div>
+									<div class="fullcategory-content">
+										<h4>电视配件</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">3D电视配件</a><a href="#">保养配件</a><a href="#">插线板</a><a href="#" class="a1">智能电视盒</a><a href="#">电视挂架</a>
+										</ul>
+									</div>
+								</div>
+								<div class="fullcategory-content-box">
+									<div class="fullcategory-content">
+										<h4>电视</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">平板电视</a><a href="#">32英寸</a><a href="#">37-40英寸</a>
+											<a class="a1" href="#">42-43英寸</a><a href="#">46-49英寸</a>
+											<a class="a1" href="#">50-52英寸</a><a href="#">55-58英寸</a>
+											<a class="a1" href="#">智能电视</a><a href="#">网络电视</a><a href="#">大屏电视</a>
+											<a class="a1" href="#">4K超高清（3840*2160）</a><a class="a1" href="#">全高清（1920*1080）</a>
+										</ul>
+									</div>
+									<div class="fullcategory-content">
+										<h4>电视配件</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">3D电视配件</a><a href="#">保养配件</a><a href="#">插线板</a><a href="#" class="a1">智能电视盒</a><a href="#">电视挂架</a>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</h4>
+					<h4>
+						<a href="#">厨卫</a>&nbsp;&nbsp;<a href="#">生活电器</a>&nbsp;&nbsp;<a href="#">净化器</a>
+						<div class="fullcategory">
+							<div class="fullcategory-left">
+								<div class="fullcategory-title">
+									<a href="#">电视影视<i></i></a>
+									<a href="#">电视精选<i></i></a>
+								</div>
+								<div class="fullcategory-content-box">
+									<div class="fullcategory-content">
+										<h4>电视</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">平板电视</a><a href="#">32英寸</a><a href="#">37-40英寸</a>
+											<a class="a1" href="#">42-43英寸</a><a href="#">46-49英寸</a>
+											<a class="a1" href="#">50-52英寸</a><a href="#">55-58英寸</a>
+											<a class="a1" href="#">智能电视</a><a href="#">网络电视</a><a href="#">大屏电视</a>
+											<a class="a1" href="#">4K超高清（3840*2160）</a><a class="a1" href="#">全高清（1920*1080）</a>
+										</ul>
+									</div>
+									<div class="fullcategory-content">
+										<h4>电视配件</h4>
+										<ul class="fullcategory-list">
+											<a class="a1" href="#">3D电视配件</a><a href="#">保养配件</a><a href="#">插线板</a><a href="#" class="a1">智能电视盒</a><a href="#">电视挂架</a>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</h4>
+				</div>
+				<div id="img_vert">
+					<ul id="img_scroll"></ul>
+					<span class="left"></span>
+					<span class="right"></span>
+					<ul id="index">
+						<li data-g=1><a>今日惊喜</a></li>
+						<li data-g=2><a>服饰百货</a></li>
+						<li data-g=3><a>手机3c</a></li>
+						<li data-g=4><a>空调水洗</a></li>
+						<li data-g=5><a>彩电</a></li>
+						<li data-g=6><a>烟灶/小家电</a></li>
+						<li data-g=7><a>电器城</a></li>
+						<li data-g=8><a>家装汽车</a></li>
+						<li data-g=9><a>品牌活动</a></li>
+						<li data-g=10 class="i"><a>金融</a></li>
+					</ul>
+				</div>
+				<div id="notice">
+					<div class="notice_top">
+						<div class="notice_top_1">
+							<h3>快讯</h3>
+							<a href="#">更多</a>
+							<span></span>
+						</div>
+						<div class="notice_top_2">
+							<span>
+								<a href="#" class="a1">公告</a>
+								<a href="#">关于假冒国美在线诈骗的声明</a>
+							</span>
+							<span>
+								<a href="#" class="a1">公告</a>
+								<a href="#">国美在线自营空调免费安装活动</a>
+							</span>
+							<span>
+								<a href="#" class="a1">促销</a>
+								<a href="#">移动和包电子券增值兑换国美券</a>
+							</span>
+							<span>
+								<a href="#" class="a1">促销</a>
+								<a href="#">华硕电脑日下单送随身包与耳机</a>
+							</span>
+							<span>
+								<a href="#" class="a1">促销</a>
+								<a href="#">看演出赛事 送300无门槛现金券</a>
+							</span>
+							<span>
+								<a href="#" class="a1">促销</a>
+								<a href="#">国美海外购4.18店庆 满188减38</a>
+							</span>
+							<span>
+								<a href="#" class="a1">促销</a>
+								<a href="#">海尔品牌日 1418元家电放肆购</a>
+							</span>
+						</div>
+					</div>
+					<div class="notice_bottom">
+						<ul class="notice_logo">
+							<li>
+								<a href="#"><i></i><i>充值</i><i></i></a>
+							</li>
+							<li class="mlogo2">
+								<a href="#"><i></i><i>车险</i><i></i></a>
+							</li>
+							<li class="mlogo3">
+								<a href="#"><i></i><i>游戏</i><i></i></a>
+							</li>
+							<li class="mlogo4">
+								<a href="#"><i></i><i>旅行</i><i></i></a>
+							</li>
+							<li class="mlogo5">
+								<a href="#"><i></i><i>美盈宝</i><i></i></a>
+							</li>
+							<li class="mlogo6">
+								<a href="#"><i></i><i>理财</i><i></i></a>
+							</li>
+							<li class="mlogo7">
+								<a href="#"><i></i><i>电影票</i><i></i></a>
+							</li>
+							<li class="mlogo8">
+								<a href=""><i></i><i>演出票</i><i></i></a>
+							</li>
+							<li class="mlogo9">
+								<a href="#"><i></i><i>P2P</i><i></i></a>
+							</li>
+							<li class="mlogo10">
+								<a href="#"><i></i><i>白拿</i><i></i></a>
+							</li>
+							<li class="mlogo11">
+								<a href="#"><i></i><i>票据</i><i></i></a>
+							</li>
+							<li class="mlogo12">
+								<a href="#"><i></i><i>固收</i><i></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--主体内容! -->
+			<section id="main" class="clear">
+				<!--广告-->
+				<div id="show_box">
+					<p>生活的橱窗<span>每一天展示精彩！</span></p>
+					<ul>
+						<li class="pinpaijie">
+							<b></b>
+							<div>
+								<h3>品牌街</h3>
+								<h4>三星note</h4>
+								<p>赠500京东E卡</p>
+								<ul>
+									<li><i></i>更多品牌</li>
+									<li><i></i>进入品牌街</li>
+								</ul>
+							</div>
+						</li>
+						<li class="dijia">
+							<b></b>
+							<div>
+								<h3>天天低价</h3>
+								<h4>坚果礼盒</h4>
+								<span>95.8 元秒杀</span>
+							</div>
+						</li>
+						<li class="haodongxi">
+							<b></b>
+							<div>
+								<h3>好东西</h3>
+								<h4>罗技蓝牙键盘</h4>
+								<p>舒适键入249</p>
+								<ul>
+									<li><i></i>键鼠送红包</li>
+									<li><i></i>逛更多&gt;&gt;</li>
+								</ul>
+							</div>
+						</li>
+						<li class="tuangou">
+							<b></b>
+							<div>
+								<h3>今日团购</h3>
+								<h4>100元代金券</h4>
+								<div>
+									团购价<span>￥89</span>
+								</div>
+							</div>
+						</li>
+						<li class="shoufa">
+							<b></b>
+							<div>
+								<h3>京东首发</h3>
+								<h4>MOTO X</h4>
+								<span>强势回归现货抢</span>
+							</div>
+						</li>
+						<li class="youhuiquan">
+							<b></b>
+							<div>
+								<h3>优惠券</h3>
+								<h4>意尔康男鞋</h4>
+								<p>百元神券限量送</p>
+							</div>
+						</li>
+						<li class="yushou">
+							<b></b>
+							<div>
+								<h3>京东预售</h3>
+								<h4>磁带蓝牙音箱</h4>
+								<span>送小米手环</span>
+							</div>
+						</li>
+						<li class="jinrong">
+							<b></b>
+							<div>
+								<h3>金融精选</h3>
+								<h4>打白条0元购</h4>
+								<p>iPhone 6分期购</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<div class="content_4">
+				<div class="choice_title">
+					<div class="choice_title_left">
+						<h2>猜你喜欢</h2>
+						<span></span>
+					</div>
+					<div class="chang-btn">
+						<span class="flush"></span>
+						<span class="change">换一组</span>
+					</div>
+				</div>
+				<div class="love" ng-controller="floorChird">
+					<ul ng-repeat="v in loves">
+						<li>
+							<a href="#"><img ng-src="images/{{v.img}}" alt=""/></a>
+							<p class="love_title"><a href="#">{{v.title}}</a></p>
+							<p class="love_price">{{v.price}}</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="stairs">
+				<div id="floor_side">
+					<ul>
+						<li data-f="1"><a>手机3C</a></li>
+						<li data-f="2"><a>家电电器</a></li>
+						<li data-f="3"><a>厨房卫浴</a></li>
+						<li data-f="4"><a>家具家装</a></li>
+						<li data-f="5"><a>服饰鞋包</a></li>
+						<li data-f="6"><a>生活百货</a></li>
+						<li data-f="7"><a>整车配件</a></li>
+						<li data-f="8"><a>海外购</a></li>
+						<li data-f="9"><a>生活服务</a></li>
+					</ul>
+				</div>
+				<!--第一楼-->
+				<div id="f1" class="floor clear" ng-controller="floorChird">
+					<div id="product">
+						<div class="product_t">
+							<span>1F</span>
+							<h2>手机3C</h2>
+							<ul>
+								<li data-i="0" class="hover"><a>精选热卖</a></li>
+								<li data-i="1"><a>手机</a></li>
+								<li data-i="2"><a>数码</a></li>
+								<li data-i="3"><a>电脑</a></li>
+								<li data-i="4"><a>OA办公</a></li>
+								<li data-i="5"><a>配件</a></li>
+								<li data-i="6"><a>淘实惠</a></li>
+							</ul>
+						</div>
+						<div class="product_b">
+							<div class="product_b_l">
+								<a><img src="images/floor1_l.jpg" alt=""/></a>
+								<ul class="bl_1">
+									<li><a href="#">手机数码</a></li>
+									<li><a href="#">电脑超市</a></li>
+									<li><a href="#">数码频道</a></li>
+									<li><a href="#">配件频道</a></li>
+								</ul>
+								<ul class="bl_2">
+									<li><a href="#">iPhone</a></li>
+									<li><a href="#">iPad</a></li>
+									<li><a href="#">三星手机</a></li>
+									<li><a href="#">戴尔大清仓</a></li>
+									<li><a href="#">华为手机</a></li>
+									<li><a href="#">华硕电脑</a></li>
+									<li><a href="#">电脑外设</a></li>
+									<li><a href="#">单反相机</a></li>
+								</ul>
+							</div>
+							<div id="b_r0" class="product_b_r">
+								<ul>
+									<li><a href="#"><img src="images/floor/floor_lb1.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r1.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r2.png" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r3.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r4.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r5.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r6.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r7.jpg" alt=""/></a></li>
+								</ul>
+							</div>
+							<div id="b_r1" class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText1">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div id="b_r2" class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText2">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div id="b_r3" class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText3">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div id="b_r4" class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText4">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div id="b_r5" class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText5">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div id="b_r6" class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText6">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="floor_brands">
+						<span class="per"><img src="images/left_mouseover.png" alt=""/></span>
+						<div class="gugao">
+							<ul class="brand_uls">
+								<li ng-repeat="v in floorBrands">
+								<a href="#"><img ng-src="images/floor/{{v.img}}"/></a>
+								</li>
+							</ul>
+						</div>
+						<span class="nex"><img src="images/right_mouseover.png" alt=""/></span>
+					</div>
+				</div>
+				<div id="f2" class="floor clear" ng-controller="floorChird">
+					<div>
+						<div class="product_t">
+							<span>2F</span>
+							<h2>家用电器</h2>
+							<ul><li ng-repeat="v in floorLi1"><a ng-click="toggle()">{{v.li}}</a></li></ul>
+						</div>
+						<div class="product_b">
+							<div class="product_b_l">
+								<a><img src="images/floor1_l.jpg" alt=""/></a>
+								<ul class="bl_1">
+									<li><a href="#">手机数码</a></li>
+									<li><a href="#">电脑超市</a></li>
+									<li><a href="#">数码频道</a></li>
+									<li><a href="#">配件频道</a></li>
+								</ul>
+								<ul class="bl_2">
+									<li><a href="#">iPhone</a></li>
+									<li><a href="#">iPad</a></li>
+									<li><a href="#">三星手机</a></li>
+									<li><a href="#">戴尔大清仓</a></li>
+									<li><a href="#">华为手机</a></li>
+									<li><a href="#">华硕电脑</a></li>
+									<li><a href="#">电脑外设</a></li>
+									<li><a href="#">单反相机</a></li>
+								</ul>
+							</div>
+							<div class="product_b_r">
+								<ul>
+									<li><a href="#"><img src="images/floor/floor_lb1.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r1.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r2.png" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r3.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r4.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r5.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r6.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r7.jpg" alt=""/></a></li>
+								</ul>
+							</div>
+							<div class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText1">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText2">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText3">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText4">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText5">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText6">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="floor_brands">
+						<span class="per"><img src="images/left_mouseover.png" alt=""/></span>
+						<div class="gugao">
+							<ul class="uls">
+								<li ng-repeat="v in floorBrands">
+								<a href="#"><img ng-src="images/floor/{{v.img}}"/></a>
+								</li>
+							</ul>
+						</div>
+						<span class="brand_nex"><img src="images/right_mouseover.png" alt=""/></span>
+					</div>
+				</div>
+				<div id="f3" class="floor clear" ng-controller="floorChird">
+					<div>
+						<div class="product_t">
+							<span>3F</span>
+							<h2>厨房卫浴</h2>
+							<ul><li ng-repeat="v in floorLi1"><a href="#">{{v.li}}</a></li></ul>
+						</div>
+						<div class="product_b">
+							<div class="product_b_l">
+								<a><img src="images/floor1_l.jpg" alt=""/></a>
+								<ul class="bl_1">
+									<li><a href="#">手机数码</a></li>
+									<li><a href="#">电脑超市</a></li>
+									<li><a href="#">数码频道</a></li>
+									<li><a href="#">配件频道</a></li>
+								</ul>
+								<ul class="bl_2">
+									<li><a href="#">iPhone</a></li>
+									<li><a href="#">iPad</a></li>
+									<li><a href="#">三星手机</a></li>
+									<li><a href="#">戴尔大清仓</a></li>
+									<li><a href="#">华为手机</a></li>
+									<li><a href="#">华硕电脑</a></li>
+									<li><a href="#">电脑外设</a></li>
+									<li><a href="#">单反相机</a></li>
+								</ul>
+							</div>
+							<div class="product_b_r">
+								<ul>
+									<li><a href="#"><img src="images/floor/floor_lb1.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r1.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r2.png" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r3.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r4.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r5.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r6.jpg" alt=""/></a></li>
+									<li><a href="#"><img src="images/floor/floor_r7.jpg" alt=""/></a></li>
+								</ul>
+							</div>
+							<div class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText1">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText2">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText3">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText4">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText5">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+							<div class="product_b_r1 r1">
+								<ul ng-repeat="v in floorText6">
+									<li>
+										<div class="p-img"><a href="#"><img ng-src="images/floor/{{v.img}}"/></a></div>
+										<div class="p-name"><a href="#">{{v.name}}</a></div>
+										<div class="p-price"><span>{{v.price}}</span></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="floor_brands">
+						<span class="per"><img src="images/left_mouseover.png" alt=""/></span>
+						<div class="gugao">
+							<ul class="uls">
+								<li ng-repeat="v in floorBrands">
+								<a href="#"><img ng-src="images/floor/{{v.img}}"/></a>
+								</li>
+							</ul>
+						</div>
+						<span class="brand-nex"><img src="images/right_mouseover.png" alt=""/></span>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="content_5" ng-controller="floorChird">
+				<div class="content_5_left">
+					<h2>促销商城</h2>
+					<div class="love" ng-controller="floorChird">
+						<ul>
+							<li ng-repeat="v in cuxiao">
+								<a href="#"><img ng-src="images/{{v.img}}" alt=""/></a>
+								<p class="love_title"><a href="#">{{v.title}}</a></p>
+								<p class="love_price">{{v.price|currency:'$'}}</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="content_5_right">
+					<h2>晒单</h2>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/cuxiao5.jpg" alt=""/>
+								<div class="ren">
+									<img src="images/BBs.jpg"/>
+									<span>"很棒的呐 评比了好多家最后决定..."</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/cuxiao6.jpg"  alt=""/>
+								<div class="ren">
+									<img src="images/BBs.jpg"/>
+									<span>"今天刚到货的，挺不错的看着，穿起..."</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div >
+			</div>
+		</div>
+	<footer id="foot_box">
+		<p class="shopping_guide"></p>
+		<ul>
+			<li><b>购物指南</b></li>
+			<li><a href="#">购物流程</a></li>
+			<li><a href="#">会员介绍</a></li>
+			<li><a href="#">团购/机票</a></li>
+			<li><a href="#">常见问题</a></li>
+			<li><a href="#">大家电</a></li>
+			<li><a href="#">联系客服</a></li>
+		</ul>
+		<p class="send_type"></p>
+		<ul>
+			<li><b>配送方式</b></li>
+			<li><a href="#">上门自提</a></li>
+			<li><a href="#">211限时达</a></li>
+			<li><a href="#">配送服务查询</a></li>
+			<li><a href="#">配送费收取标准</a></li>
+			<li><a href="#">海外配送</a></li>
+		</ul>
+		<p class="pay_type"></p>
+		<ul>
+			<li><b>支付方式</b></li>
+			<li><a href="#">货到付款</a></li>
+			<li><a href="#">在线支付</a></li>
+			<li><a href="#">分期付款</a></li>
+			<li><a href="#">邮局汇款</a></li>
+			<li><a href="#">公司转账</a></li>
+		</ul>
+		<p class="sale_service"></p>
+		<ul>
+			<li><b>售后服务</b></li>
+			<li><a href="#">售后政策</a></li>
+			<li> <a href="#">价格保护</a></li>
+			<li><a href="#">退款说明</a></li>
+			<li><a href="#">返修/退换货</a></li>
+			<li><a href="#">取消订单</a></li>
+		</ul>
+		<p class="special_service"></p>
+		<ul>
+			<li><b>特色服务</b></li>
+			<li><a href="#">夺宝岛</a></li>
+			<li><a href="#">DIY装机</a></li>
+			<li><a href="#">延保服务</a></li>
+			<li><a href="#">京东E卡</a></li>
+			<li> <a href="#">节能补贴</a></li>
+			<li> <a href="#">京东通信</a></li>
+		</ul>
+	</footer>
+	<!--页面底部! -->
+	<footer id="footer">
+		<div class="links"><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">人才招聘</a>|<a href="#">商家入驻</a>|<a href="#">广告服务</a>|<a href="#">手机网站</a>|<a href="#">友情链接</a>|<a href="#">销售联盟</a>|<a href="#">京东社区</a>|<a href="#">网站公益</a></div>
+		<div class="copyright">北京市公安局朝阳分局备案编号110105014669  |  京ICP证070359号  |  互联网药品信息服务资格证编号(京)-非经营性-2011-0034<br />
+			<a href="#">音像制品经营许可证苏宿批005号 </a> |  出版物经营许可证编号新出发(苏)批字第N-012号  |  互联网出版许可证编号新出网证(京)字150号<br />
+			<a href="#">网络文化经营许可证京网文[2011]0168-061号 </a> Copyright © 2004-2014 美美wwwshenme.com 版权所有 <br />
+			美美旗下网站：
+			<a href="#">English Site</a> <a href="#">拍拍网</a> <a href="#">网银在线</a>
+		</div>
+		<div class="authentication">
+			<a href=""><img src="images/jy.jpg" width="108" height="40" /></a>
+			<a href=""><img src="images/kx.jpg" width="108" height="40" /></a>
+			<a href=""><img src="images/cy.jpg" width="108" height="40" /></a>
+			<a href=""><img src="images/cx.jpg" width="112" height="40" /></a>
+		</div>
+	</footer>
+		<!--end: 主体-->
+
+		<!--begin: modal 模态登录框-->
+		<div class="modal"  id="loginForm">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<h3 class="title">会员登录</h3>
+					<p class="hint">请保管好您的注册信息，以防丢失。</p>
+					<form id="login-form" action="regster.php">
+						<input name="user_name" type="text" placeholder="请输入您的用户名">
+						<input name="user_pwd" type="password" placeholder="请输入您的密码">
+						<input value="注&nbsp;&nbsp;&nbsp;&nbsp;册" type="button">
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--end: modal 模态登录框-->
+		<!--begin: modal 模态注册框-->
+		<div class="moda2"  id="loginForm1">
+			<div class="moda2-dialog">
+				<div class="moda2-content">
+					<h3 class="title">会员注册</h3>
+					<p class="msg"></p>
+					<form id="regster">
+						用户名：<input id="user_name" name="user_name" type="text" placeholder="请输入您的用户名">
+						密码：<input id="user_pwd" name="user_pwd" type="password" placeholder="请输入您的密码">
+						<input id="btSave" value="注&nbsp;&nbsp;&nbsp;&nbsp;册" type="submit">
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--end: modal 模态注册框-->
+		<!--开场动画-->
+		<div class="animation"> 
+			<div class="animation-dialog">
+				<div class="animation-content">
+					<img src="images/zzc.png">
+					<a href="javascript:close()">X</a>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/angular.js"></script>
+		<script src="js/floor.js"></script>
+		<script src="js/cut.js"></script>
+	</body>
+</html>
